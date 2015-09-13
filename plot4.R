@@ -26,7 +26,7 @@ par(mfrow = c(2,2))
 
 # 6. Add the four plots
 # 6.1 First plot
-plot(data$DateTime, data$Global_active_power, type = 'l', xlab = "", ylab = "Global Active Power (kilowatts)")
+plot(data$DateTime, data$Global_active_power, type = 'l', xlab = "", ylab = "Global Active Power")
 
 # 6.2 Second plot
 plot(data$DateTime, data$Voltage, type = 'l', xlab = "datetime", ylab = "Voltage")
